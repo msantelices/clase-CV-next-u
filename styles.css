@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f2f2f2;
+}
+
+main {
+    background: #fff;
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-top: 10px solid #2a21ac;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.encabezado .nombre h1 {
+    font-size: 2rem;
+}
+
+.encabezado .contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado .btn {
+    color: #fff;
+    background: #2a21ac;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.encabezado .mail {
+    color: #2a21ac;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 0.25rem;
+}
+
+.acerca {
+    padding: 2rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.habilidades {
+    padding: 1rem 0;
+}
+
+.habilidades ul {
+    list-style: none;
+}
+
+.habilidades ul li {
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.experiencia {
+    margin: 1.5rem 0;
+}
+
+.experiencia h3 {
+    margin-bottom: 1rem;
+}
+
+.experiencia .trabajo {
+    padding: 1rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.experiencia .puesto {
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+
+.educacion {
+    margin: 1.5rem 0;
+}
+
+.educacion h3 {
+    margin-bottom: 1rem;
+}
+
+.proyectos {
+    margin: 2rem 0;
+}
+
+.proyectos .galeria {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+}
+
+.proyectos .tarjeta {
+    width: 30%;
+}
+
+.proyectos img {
+    width: 100%;
+}
+
+.proyectos .tarjeta a {
+    text-decoration: none;
+    color: #000;
+}
+
+.proyectos .tarjeta p {
+    font-weight: 700;
+}
